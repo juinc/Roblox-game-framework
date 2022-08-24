@@ -1,0 +1,48 @@
+{
+  "name": "cool-swat-game",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "Common": {
+        "$path": "src/shared"
+      },
+      "Packages" : {
+        "$path": "src/packages"
+      }
+    },
+
+    "ServerScriptService": {
+      "$path": "src/server",
+
+      "Packages": {
+        "$path": "src/serverPackages"
+      }
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "$path": "src/client"
+      }
+    },
+
+    "Lighting": {
+      "$properties": {
+        "Ambient": [
+          0,
+          0,
+          0
+        ],
+        "Brightness": 2,
+        "GlobalShadows": true,
+        "Outlines": false,
+        "Technology": "Future"
+      }
+    },
+    "SoundService": {
+      "$properties": {
+        "RespectFilteringEnabled": true
+      }
+    }
+  }
+}
