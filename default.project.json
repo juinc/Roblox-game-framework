@@ -1,5 +1,5 @@
 {
-  "name": "cool-swat-game",
+  "name": "game-framework",
   "tree": {
     "$className": "DataModel",
 
@@ -9,6 +9,9 @@
       },
       "Packages" : {
         "$path": "src/packages"
+      },
+      "Tests": {
+        "$path": "src/tests/test-client"
       }
     },
 
@@ -17,6 +20,9 @@
 
       "Packages": {
         "$path": "src/serverPackages"
+      },
+      "Tests": {
+        "$path": "src/tests/test-server"
       }
     },
 
