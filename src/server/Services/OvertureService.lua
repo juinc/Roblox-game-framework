@@ -1,6 +1,5 @@
 --//SERVICES
 local ReplicatedStorage   = game:GetService('ReplicatedStorage')
-local ServerScriptService = game:GetService("ServerScriptService")
 local CollectionService   = game:GetService("CollectionService")
 --//MODULES
 local Knit = require(ReplicatedStorage.Packages.Knit)
