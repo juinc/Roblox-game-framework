@@ -19,15 +19,15 @@ local function BindToTag(tag,Function)
 end
 
 function OvertureService:KnitStart()
+
+end
+
+function OvertureService:KnitInit()
     BindToTag("Preload",function(obj)
         task.spawn(function() require(obj) end)
     end)
 
     require(ReplicatedStorage.Packages.Overture)
-end
-
-function OvertureService:KnitInit()
-    
 end
 
 return OvertureService
