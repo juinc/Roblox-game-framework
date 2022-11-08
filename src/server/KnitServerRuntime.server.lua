@@ -24,7 +24,10 @@ end
 for _,v in pairs(game:GetService("ServerScriptService").Services:GetChildren()) do
     if v:IsA("ModuleScript") then
         require(v)
+        v:Destroy()
     end
 end
 
-Knit.Start():catch(warn)
+Knit.Start():andThen(function()
+    script.Parent.Modules:Destroy()
+end):catch(warn)
