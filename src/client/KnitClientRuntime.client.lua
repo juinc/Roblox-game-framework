@@ -22,6 +22,7 @@ end
 for i,v in pairs(game:GetService("StarterPlayer").StarterPlayerScripts.Controllers:GetChildren()) do
     if v:IsA("ModuleScript") then
         require(v)
+        v:Destroy()
     end
 end
 
