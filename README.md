@@ -1,6 +1,8 @@
-# some epic lua framework
+# ALL CREDITS GO TO THE RESPECTIVE CREATORS OF THE PACKAGES USED IN THIS FRAMEWORK
+
+# some lua framework
 i made this so i could use it in my projects without having to recreate the same thing everytime
-i might release it to the public idk
+this is just a collection of multiple packages/frameworks. i just put them together so i could use them in my projects
 
 ## Getting Started
 how to use overture
