@@ -1,0 +1,59 @@
+{
+  "name": "game-framework",
+  "tree": {
+    "$className": "DataModel",
+
+    "$ignoreUnknownInstances": true,
+    "ReplicatedStorage": {
+      "$ignoreUnknownInstances": true,
+      "Common": {
+        "$path": "src/shared",
+        "$ignoreUnknownInstances": true
+      },
+      "Packages" : {
+        "$ignoreUnknownInstances": true,
+        "$path": "src/packages"
+      },
+      "Tests": {
+        "$ignoreUnknownInstances": true,
+        "$path": "src/tests/test-client"
+      }
+    },
+
+    "ServerScriptService": {
+      "$ignoreUnknownInstances": true,
+      "$path": "src/server",
+
+      "Packages": {
+        "$ignoreUnknownInstances": true,
+        "$path": "src/serverPackages"
+      },
+      "Tests": {
+        "$ignoreUnknownInstances": true,
+        "$path": "src/tests/test-server"
+      }
+    },
+
+    "StarterPlayer": {
+      "$ignoreUnknownInstances": true,
+      "StarterPlayerScripts": {
+        "$ignoreUnknownInstances": true,
+        "$path": "src/client"
+      },
+      "StarterCharacterScripts" :{
+        "$ignoreUnknownInstances": true,
+        "$path": "src/client-character"
+      }
+    },
+
+    "Lighting": {
+      "$ignoreUnknownInstances": true
+    },
+    "SoundService": {
+      "$ignoreUnknownInstances": true,
+      "$properties": {
+        "RespectFilteringEnabled": true
+      }
+    }
+  }
+}
