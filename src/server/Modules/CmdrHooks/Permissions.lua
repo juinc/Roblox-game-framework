@@ -1,5 +1,5 @@
 local Admins = {
-    [169308929] = true
+    --[169308929] = true
 }
 
 return function (registry)
