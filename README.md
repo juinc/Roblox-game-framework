@@ -1,8 +1,8 @@
 # ALL CREDITS GO TO THE RESPECTIVE CREATORS OF THE PACKAGES USED IN THIS FRAMEWORK
 
 # some lua framework
-i made this so i could use it in my projects without having to recreate the same thing everytime
-this is just a collection of multiple packages/frameworks. i just put them together so i could use them in my projects
+i made this so i could use it in my projects without having to recreate the same thing every time
+this is just a collection of multiple packages/frameworks.
 
 ## Getting Started
 how to use overture
